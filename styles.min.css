@@ -14,7 +14,11 @@ html {
 }
 
 body {
-  background-color:var(--cg-white);
+  /*background-color:var(--cg-white);*/
+  background-image: url("flowers.jpg");
+  background-attachment: fixed;
+  
+  background-size: cover;
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -71,25 +75,42 @@ main {
 .navbar a:hover {
   color: var(--cg-cream);
 }
+
 .index-title {
   font-family: Times, 'Times New Roman', serif;
 }
-/* CSS for page footer */
+
 
 .logo {
   padding-left: 10px;
 }
 
 main .about-image {
-  text-align: center;
+  text-align: left;
   margin-top: -100px;
   margin-bottom: -100px; 
+  display: inline-block;
 }
-main img {
-  transform: scale(.7);
+
+.about-image img {
+  transform: scale(.6);
+  margin-left: -150px;
+  margin-top: -50px;
+  margin-right: -150px;
   
 }
 
+.about-text {
+  text-align: center;
+  display: inline;
+}
+
+.index-main {
+  background-color: rgba(214, 202, 191, .5);
+}
+
+
+/* CSS for page footer */
 .footer {
   display: flex;
   justify-content: center;
