@@ -17,7 +17,6 @@ body {
   /*background-color:var(--cg-white);*/
   background-image: url("flowers.jpg");
   background-attachment: fixed;
-  
   background-size: cover;
   position: relative;
   min-height: 100vh;
@@ -101,12 +100,19 @@ main .about-image {
 }
 
 .about-text {
+  font-size: 110%;
   text-align: center;
   display: inline;
 }
 
 .index-main {
-  background-color: rgba(214, 202, 191, .5);
+  background-color: rgba(214, 202, 191, .75);
+  display: flex;
+  padding: 30px;
+  margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
 }
 
 
