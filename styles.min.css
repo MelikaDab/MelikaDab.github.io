@@ -22,6 +22,7 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
+  
 }
 
 main {
@@ -30,6 +31,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* CSS for navigation bar */
@@ -82,25 +84,14 @@ main {
   padding-left: 10px;
 }
 
-main .about-image {
-  text-align: left;
-  margin-top: -100px;
-  margin-bottom: -100px; 
-  display: inline-block;
-}
-
-.about-image img {
-  transform: scale(.6);
-  margin-left: -150px;
-  margin-top: -50px;
-  margin-right: -150px;
-  
+.about {
+  text-align: center;
 }
 
 .about-text {
   font-size: 110%;
   text-align: center;
-  display: inline;
+  display: block;
 }
 
 main {
@@ -182,4 +173,14 @@ main {
   display: block;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.contact-me{
+  background-color: var(--cg-white);
+  text-align: center;
+  border: 2px solid var(--cg-orange);
+  border-radius: 5px;
+}
+.contact-me p {
+  padding: 2%;
 }
