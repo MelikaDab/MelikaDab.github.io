@@ -46,10 +46,10 @@ main {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   background-color: var(--cg-orange);
   color: white;
-  padding: 0px 0px;
+  
 
 }
 
@@ -123,9 +123,63 @@ main {
   color: white;
   position: absolute;
   bottom: 0;
-  
   width: 100%;
-  height: 2.5rem;
-  
+  height: 2.5rem; 
 }
 
+
+/* Resume download link */
+.resume-link {
+  padding-bottom: 10px;
+  
+}
+.resume-link:link {
+  color: darkslategray;
+}
+
+.resume-link:hover {
+  color: var(--cg-orange);
+}
+
+.resume-link:active {
+  color: darkred;
+}
+.resume-link:visited {
+  color: indigo;
+}
+
+
+
+/* resume sections */
+
+.resume {
+  border: 2px solid var(--cg-orange);
+  border-radius: 5px;
+  background-color: var(--cg-white);
+}
+
+.section {
+  border-bottom: 2px solid var(--cg-orange);
+}
+
+.section-last {
+  border-bottom: 0;
+
+}
+
+.resume h2, h3, p {
+  padding-left: 10px;
+}
+
+
+/* portfolio */
+.project img {
+  transform: scale(.35);
+  margin: -250px;
+}
+
+.project-details {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
